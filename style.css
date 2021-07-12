@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ff80c0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    padding: 20px 35px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ff80c0;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #ff80c0;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start*/
+.hero {
+    background-image: url("./assets/IMG-1892.jpg");
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero Style End */
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #ff80c0;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #ff80c0;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.mandy-san-antonio {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #ffffff;
+    overflow: auto;
+}
+
+.mandy-san-antonio img {
+    width: 35%;
+    float: left;
+}
+
+.mandy-san-antonio-bio p {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+header h2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ff80c0;
+    margin: 0;
+    display: inline;
+}
+
+.wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
+
+  .wrap li {
+    background: gold;
+  }
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid silver;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
