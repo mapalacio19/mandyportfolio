@@ -5,25 +5,25 @@
 }
 
 body {
-    color: #ff80c0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    color: #408080;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
     padding: 20px 35px;
 }
 
-header h1 {
+h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #ff80c0;
+    color: #408080;
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: #ff80c0;
+    color: #408080;
 }
 
 header nav {
@@ -47,7 +47,7 @@ section {
 
 /* Hero Style Start*/
 .hero {
-    background-image: url("./assets/IMG-1892.jpg");
+    background-image: url("./assets/wil-stewart-pHANr-CpbYM-unsplash.jpg");
     height: 650px;
     background-size: cover;
     background-position: center;
@@ -61,7 +61,7 @@ section {
 
 .intro p {
     line-height: 1.7;
-    color: #ff80c0;
+    color: #408080;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -69,72 +69,95 @@ section {
 
 .section-title {
     font-size: 55px;
-    color: #ff80c0;
+    color: #408080;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
 }
 
-.mandy-san-antonio {
-    width: 900px;
-    margin: 0 auto 30px auto;
-    background: #ffffff;
-    overflow: auto;
-}
-
-.mandy-san-antonio img {
-    width: 35%;
-    float: left;
-}
-
-.mandy-san-antonio-bio p {
-    padding: 35px;
-    float: left;
-    width: 65%;
-}
-
-header h2 {
+h2 {
     font-weight: bold;
     font-size: 36px;
-    color: #ff80c0;
+    color: #408080;
     margin: 0;
     display: inline;
 }
 
-.wrap    { 
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }  
-
   .wrap li {
-    background: gold;
-  }
-
-.flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    border: 1px solid silver;
-    -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: flex;
+    background: #ff8040;
   }
 
   .flex-item {
-    background: tomato;
     padding: 5px;
-    width: 100px;
+    width: 800px;
     height: 100px;
     margin: 10px;
-    
     line-height: 100px;
     color: white;
     font-weight: bold;
     font-size: 2em;
     text-align: center;
+  }
+
+footer {
+    border: 3px solid #ff80c0;
+    background-color: #9c9c9a;
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+  }
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #408080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #408080;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
   }

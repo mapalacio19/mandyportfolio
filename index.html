@@ -39,22 +39,67 @@
 <section id="about-me" class="intro">
     <h2 class="section-title primary-border">About Me</h2>
 
-<article class="mandy-palacio">  
-                <img src="./assets/Mandy San Antonio.jpg" alt class="mandy-palacio" />
-                <div class="mandy-palacio text-left" >
-</article>       
-
+<div class=container>        
+<article class="mandy-palacio"> 
+    <div class="container has-text-centered">
+        <div class="columns is-mobile is-centered">
+            <div class="column-1">
+                <img class="is-tile" src="./assets/Mandy San Antonio.jpg" alt class="mandy-palacio" 
+                width=400
+                height=500>
+                <div class="mandy-palacio text-left">
+            </div>        
+        </div>            
+    </div>                
+</article>
+    
     <p>
         From a young age, I’ve always had a sense of motivation and passion driving me forward. Whether it’s exploring unique opportunities, learning additional skills, or meeting new people, I bring these values to every experience throughout my life on a personal and professional level. To learn more about me, keep exploring my site or reach out directly.
     </p>
 </section> 
+</div>
 
 <section id="projects" class="intro">
     <h3 class="section-title primary-border">Projects</h3>
+        <ul class="flex-container wrap">
+            <li class="flex-item">
+                <a href="https://mapalacio19.github.io/project-group/">Disc Golf Locator</a>
+            </li>
+        </ul>
 
-<ul class="flex-container wrap">
-    <li class="flex-item">1</li>
-  </ul>
+        <ul class="flex-container wrap">
+            <li class="flex-item">2</li>
+        </ul>
+
+        <ul class="flex-container wrap">
+            <li class="flex-item">3</li>
+        </ul>
+
+        <div class="container">
+            <div style="text-align: center">
+              <h2>Contact Me</h2>
+              <p>Feel free to reach out!</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="./assets/IMG-0793.JPG" 
+                width=450
+                height=500>
+              </div>
+
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                  <label for="subject">Any Other Details</label>
+                  <textarea id="subject" name="subject" placeholder="What would you like to know?" style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
 
 </body>
-</html>
+</html> 
