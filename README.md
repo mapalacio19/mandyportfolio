@@ -19,5 +19,5 @@ Aaron Whitney
 
 
 # Link & ScreenShot
-* [Link & Screenshot](#link-&-screenshot) https://mapalacio19.github.io/mandyportfolio/
+* [Link](#link-&-screenshot) https://mapalacio19.github.io/mandyportfolio/
 ![Screenshot](https://user-images.githubusercontent.com/84938967/130876687-671e1728-1497-4e5b-8c4e-02f3f9f78409.JPG)
